@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.bangtin {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.colleft {
+    border-right: 1px solid #e5e5e5;
+    padding-right: 25px;
+}
+
+.colmain {
+    border-right: 1px solid #e5e5e5;
+    padding-right: 25px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.title-large {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.title-medium {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.title-small {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.news-item-featured .description {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #444444;
+}
+
+.news-item-featured .source-tag {
+    font-weight: bold;
+}
+
+.news-item-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.news-item-horizontal img {
+    width: 110px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.tam-diem-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.tam-diem-content {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.tag {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.tam-diem-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.tam-diem-author .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
